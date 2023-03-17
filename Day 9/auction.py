@@ -1,4 +1,4 @@
-from replit import clear
+# from replit import clear // find a way to input
 from art import logo
 #HINT: You can call clear() to clear the output in the console.
 print(logo)
@@ -11,7 +11,7 @@ def start_auction ():
   more_bidders = input("Are there other bidders? type yes if there are and No if there are no bidders").lower()
 
   if more_bidders =="yes":
-    clear()
+    # clear()
     start_auction()
   else:
     for bidder in auction_dict :
