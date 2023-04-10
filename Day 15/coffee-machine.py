@@ -43,6 +43,7 @@ def check_resource(ingredients):
     to make coffee"""
     for item in ingredients:
         if ingredients[item] >= resources[item]:
+            print(f"Sorry there is not enough {item}")
             return False
     return True
 
