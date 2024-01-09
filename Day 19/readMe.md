@@ -1,0 +1,1 @@
+Todays lesson is about higher order functions and event listeners
